@@ -14,5 +14,5 @@ fi
 
 echo "Install start..."
 find . -regextype posix-egrep -iregex '.*\.tt[cf]$' -exec cp {} ${font_dir}  \;
-fc-cache -f -v
+#fc-cache -f -v
 echo "Install finish..."
